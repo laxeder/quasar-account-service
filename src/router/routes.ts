@@ -8,7 +8,7 @@ const routes: RouteRecordRaw[] = [
       {
         path: '',
         alias: ['home'],
-        component: () => import('pages/HomePage.vue'),
+        component: () => import('pages/MHomePage.vue'),
       },
     ],
   },
@@ -17,7 +17,7 @@ const routes: RouteRecordRaw[] = [
   // but you can also remove it
   {
     path: '/:catchAll(.*)*',
-    component: () => import('pages/ErrorNotFound.vue'),
+    component: () => import('pages/MNotFoundPage.vue'),
   },
 ];
 
