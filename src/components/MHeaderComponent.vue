@@ -6,11 +6,21 @@
         dense
         round
         icon="menu"
+        text-color="secondary"
         aria-label="Menu"
         @click="$emit('toggle-left-drawer')"
       />
 
-      <q-toolbar-title>Serviço de contas</q-toolbar-title>
+      <q-toolbar-title class="text-secondary"
+        >Serviço de contas</q-toolbar-title
+      >
+
+      <q-btn
+        flat
+        @click="$q.dark.toggle"
+        icon="brightness_4"
+        text-color="secondary"
+      />
 
       <q-btn color="secondary" text-color="primary" @click="onLogin"
         >Entrar</q-btn

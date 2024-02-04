@@ -1,7 +1,5 @@
 <template>
-  <div
-    class="fullscreen bg-white text-primary text-center q-pa-md flex flex-center"
-  >
+  <div class="fullscreen text-primary text-center q-pa-md flex flex-center">
     <div>
       <div style="font-size: 30vh">404</div>
 
@@ -10,7 +8,7 @@
       <q-btn
         class="q-mt-xl"
         color="primary"
-        text-color="white"
+        text-color="secondary"
         to="/"
         label="Ir para a tela inicial"
         no-caps
