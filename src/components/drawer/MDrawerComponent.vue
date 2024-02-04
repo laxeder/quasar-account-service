@@ -1,9 +1,7 @@
 <template>
   <q-drawer class="bg-primary" v-model="leftDrawerOpen" show-if-above elevated>
     <q-list>
-      <q-item-label header class="text-secondary"
-        >Menu da aplicação</q-item-label
-      >
+      <q-item-label header class="text-primary">Menu da aplicação</q-item-label>
 
       <MDrawerItemComponent
         v-for="item in drawerItems"

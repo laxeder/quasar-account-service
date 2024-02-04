@@ -1,8 +1,35 @@
 // app global css in SCSS form
 
+.body--light {
+  --m-tertiary: #fafafa;
+
+  .bg-primary {
+    background-color: var(--q-secondary) !important;
+  }
+
+  .bg-secondary {
+    background-color: var(--q-primary) !important;
+  }
+
+  .bg-tertiary {
+    background-color: var(--m-tertiary) !important;
+  }
+}
+
 .body--dark {
-  background-color: var(--q-dark) !important;
-  --q-secondary: orange !important;
-  --q-primary: var(--q-dark-page) !important;
-  --q-dark: orange !important;
+  --q-primary: #9575cd !important;
+  --q-secondary: #212121 !important;
+  --m-tertiary: #3d3d3d !important;
+
+  .bg-primary {
+    background-color: var(--q-secondary) !important;
+  }
+
+  .bg-secondary {
+    background-color: var(--q-primary) !important;
+  }
+
+  .bg-tertiary {
+    background-color: var(--m-tertiary) !important;
+  }
 }
