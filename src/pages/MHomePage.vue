@@ -1,11 +1,19 @@
 <template>
   <q-page>
     <div class="row">
-      <div class="col-xs-12 col-sm-6 q-mt-xl flex justify-center">
-        <img src="src/assets/connections.svg" style="width: 80%" />
+      <div
+        class="col-xs-12 col-sm-7 q-pt-xs-lg q-pl-sm-lg q-pr-xs-lg q-pa-sm-lg q-pl-xs-lg flex justify-end"
+      >
+        <img
+          src="src/assets/connections.svg"
+          text-color="secondary"
+          style="width: 100%"
+        />
       </div>
-      <div class="col-xs-12 col-sm-6">
-        <div class="row justify-center text-center q-pa-md">
+      <div class="col-xs-12 col-sm-5">
+        <div
+          class="row justify-center text-center q-pa-xs-md q-mt-sm-xl q-pl-sm-xs"
+        >
           <p
             class="text-h2 text-primary text-weight-bold q-ma-xs q-mt-md col-12"
           >

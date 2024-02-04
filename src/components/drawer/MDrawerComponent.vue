@@ -1,5 +1,5 @@
 <template>
-  <q-drawer v-model="leftDrawerOpen" show-if-above bordered class="bg-primary">
+  <q-drawer class="bg-primary" v-model="leftDrawerOpen" show-if-above elevated>
     <q-list>
       <q-item-label header class="text-secondary"
         >Menu da aplicação</q-item-label

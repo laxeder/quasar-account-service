@@ -1,9 +1,8 @@
 // app global css in SCSS form
 
-.body--light {
-  --q-primary: white;
-}
-
 .body--dark {
-  --q-secondary: var(--q-dark) !important;
+  background-color: var(--q-dark) !important;
+  --q-secondary: orange !important;
+  --q-primary: var(--q-dark-page) !important;
+  --q-dark: orange !important;
 }
